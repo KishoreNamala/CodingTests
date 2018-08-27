@@ -1,0 +1,479 @@
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95630,95656], [95760,95800], [95620,95699], [94133,94133], [94200,94299], [94226,94399]]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list94133
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list94133
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[94200,94299]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list94200
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list94299
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[94226,94399]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list94399
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[95620,95699]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list95620
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list95699
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[95630,95656]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[95760,95800]
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list95760
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list95800
+2018-08-27 16:15:55 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:16:38 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00345,1EE45]]
+2018-08-27 16:16:38 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00345,1EE45]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:16:38 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[49800, 50000]
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:38 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00$45,1E@45]]
+2018-08-27 16:16:38 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00$45,1E@45]
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00000, 12345]]
+2018-08-27 16:16:39 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00000, 12345]
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{12345,34567}]
+2018-08-27 16:16:39 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{12345,34567}
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[000E4,12345]]
+2018-08-27 16:16:39 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[000E4,12345]
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[99999,88888]]
+2018-08-27 16:16:39 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[99999,88888]
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:16:39 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[1234,12345]]
+2018-08-27 16:16:39 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[1234,12345]
+2018-08-27 16:17:11 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:17:11 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:17:11 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:17:11 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:17:25 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:17:37 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:17:45 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:17:50 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:17:50 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:18:04 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:04 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:04 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00345,1EE45]]
+2018-08-27 16:18:04 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00345,1EE45]
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:05 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:18:05 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:18:05 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[49800, 50000]
+2018-08-27 16:18:06 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:06 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:06 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00$45,1E@45]]
+2018-08-27 16:18:06 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00$45,1E@45]
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00000, 12345]]
+2018-08-27 16:18:07 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00000, 12345]
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:18:07 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{12345,34567}]
+2018-08-27 16:18:08 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{12345,34567}
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[000E4,12345]]
+2018-08-27 16:18:08 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[000E4,12345]
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[99999,88888]]
+2018-08-27 16:18:08 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[99999,88888]
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:18:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[1234,12345]]
+2018-08-27 16:18:08 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[1234,12345]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:19:03 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:19:13 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:19:16 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:19:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:19:44 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:22:06 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:06 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:06 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00345,1EE45]]
+2018-08-27 16:22:06 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00345,1EE45]
+2018-08-27 16:22:07 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:07 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:07 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:22:08 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:22:09 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[49800, 50000]
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00$45,1E@45]]
+2018-08-27 16:22:09 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00$45,1E@45]
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00000, 12345]]
+2018-08-27 16:22:09 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00000, 12345]
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:22:09 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{12345,34567}]
+2018-08-27 16:22:10 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{12345,34567}
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[000E4,12345]]
+2018-08-27 16:22:10 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[000E4,12345]
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[99999,88888]]
+2018-08-27 16:22:10 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[99999,88888]
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:22:10 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[1234,12345]]
+2018-08-27 16:22:10 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[1234,12345]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00345,1EE45]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00345,1EE45]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[49800, 50000]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00$45,1E@45]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00$45,1E@45]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00000, 12345]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00000, 12345]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{12345,34567}]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{12345,34567}
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[000E4,12345]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[000E4,12345]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[99999,88888]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[99999,88888]
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:23:18 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[1234,12345]]
+2018-08-27 16:23:18 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[1234,12345]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00345,1EE45]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00345,1EE45]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800, 50000], [51500,53479]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[49800, 50000]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00$45,1E@45]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00$45,1E@45]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[00000, 12345]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[00000, 12345]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{12345,34567}]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{12345,34567}
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[000E4,12345]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[000E4,12345]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[99999,88888]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[99999,88888]
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:24:02 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[1234,12345]]
+2018-08-27 16:24:02 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[1234,12345]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[26000,27673]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list26000
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list27673
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:36 - Entering optimizeRanges() method of RangeOptimizer
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list20001
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list25000
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[24000,25673]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:63 - Pushed new upper bound in tracking list25673
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[30000,34562]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list30000
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list34562
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:52 - Processing range:[45234,65498]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:102 - Pushed new lower bound in tracking list45234
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:106 - Pushed new upper bound in tracking list65498
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:82 - Exiting optimizeRanges() method of RangeOptimizer
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95852,9589Z]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[95852,9589Z]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:57 - Validation Error. No input
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[49679,52015], [49800,50000], [51500,53479]]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95679,95715], [99800, 99900], [95500,95579]]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[95679,95715], [99800, 99900], [95500,95579]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[99800, 99900]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[9589A,9589$]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[9589A,9589$]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[956300, 95762]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[956300, 95762]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[01234,12345]]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:38 - Exiting isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[{25891,87961}]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format{25891,87961}
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[9576A,95770]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[9576A,95770]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[98999,98888]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:104 - Validation Error. Range Upper value is smaller than the Lower value[98999,98888]
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:33 - Entering isValid() method of RangeValidator
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:53 - Checking for Null or Empty
+2018-08-27 16:29:35 DEBUG com.ws.test.optimizer.RangeOptimizer:77 - Checking format for input range:[[9563,95615]]
+2018-08-27 16:29:35 ERROR com.ws.test.optimizer.RangeOptimizer:80 - Validation Error. Invalid format[9563,95615]
